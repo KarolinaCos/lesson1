@@ -1,5 +1,9 @@
 def format_price(price):
-    price = int(price)
+    arg = int(price)
+    return arg
     
-    return my_number
+
+cena = format_price(56.24)
+print(cena)
+
 
